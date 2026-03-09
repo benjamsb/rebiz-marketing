@@ -44,7 +44,7 @@ export default function MarketingGoals() {
             >
               <div className="flex items-center gap-3">
                 <span className={`text-xl font-bold tabular-nums flex-shrink-0 ${openId === goal.id ? 'text-white/60' : 'text-rz-subtle'}`}>
-                  {String(goal.id).padStart(2, '0')}
+                  {goal.id}
                 </span>
                 <span className={`font-semibold text-sm leading-snug ${openId === goal.id ? 'text-white' : ''}`}>
                   {goal.title}
@@ -67,7 +67,7 @@ export default function MarketingGoals() {
                 transition={{ duration: 0.3 }}
               >
                 <span className="text-xs font-semibold text-rz-orange tracking-widest uppercase">
-                  Marketing Goal {String(goal.id).padStart(2, '0')}
+                  Marketing Goal {goal.id}
                 </span>
                 <h3 className="mt-2 text-xl font-bold text-rz-white leading-snug">{goal.title}</h3>
                 <p className="mt-4 text-rz-muted text-sm leading-relaxed">{goal.description}</p>

@@ -3,7 +3,7 @@
 export const companyGoals = [
   {
     id: 1,
-    tag: 'Goal 01',
+    tag: 'Goal 1',
     title: 'Accelerate Profitable Growth',
     metric: 'Rule of 40: mid-30s → 45–54',
     description:
@@ -14,7 +14,7 @@ export const companyGoals = [
   },
   {
     id: 2,
-    tag: 'Goal 02',
+    tag: 'Goal 2',
     title: 'Defend & Widen Category Leadership',
     metric: '#1 in 50% more verticals · 3× store count',
     description:
@@ -25,7 +25,7 @@ export const companyGoals = [
   },
   {
     id: 3,
-    tag: 'Goal 03',
+    tag: 'Goal 3',
     title: 'Expand from Point Solution to Platform',
     metric: '3× ARR · 50× TAM potential',
     description:
@@ -36,7 +36,7 @@ export const companyGoals = [
   },
   {
     id: 4,
-    tag: 'Goal 04',
+    tag: 'Goal 4',
     title: 'Preserve Best-in-Class Retention & Grow NRR',
     metric: '3× NRR · Match current GRR & NPS/CSAT',
     description:
@@ -47,7 +47,7 @@ export const companyGoals = [
   },
   {
     id: 5,
-    tag: 'Goal 05',
+    tag: 'Goal 5',
     title: 'Modernize the Go-to-Market Model',
     metric: 'AI-augmented GTM · full-funnel attribution',
     description:
@@ -104,7 +104,7 @@ export const marketingGoals = [
 export const priorities = [
   {
     id: 1,
-    rank: '01',
+    rank: '1',
     title: 'Create a Viable Environment for Rebiz to Grow',
     rationale:
       "The foundation: if the brand doesn't clearly communicate its new platform story, every downstream motion underperforms. This is the prerequisite for everything else.",
@@ -121,7 +121,7 @@ export const priorities = [
   },
   {
     id: 2,
-    rank: '02',
+    rank: '2',
     title: 'Uplevel Team Structure, Leverage & AI',
     rationale:
       'A small team with great leverage beats a large team with poor coordination. Restructuring around core muscles and AI-first workflows is the force multiplier for every other priority.',
@@ -137,7 +137,7 @@ export const priorities = [
   },
   {
     id: 3,
-    rank: '03',
+    rank: '3',
     title: 'Turn Customer Proof into a Top Growth Driver',
     rationale:
       'Rebiz has exceptional retention and real ROI stories. Customer proof is currently underutilized — it should become one of the top acquisition and retention tools in the GTM playbook.',
@@ -153,7 +153,7 @@ export const priorities = [
   },
   {
     id: 4,
-    rank: '04',
+    rank: '4',
     title: 'Make PLG Work for Mid-Market',
     rationale:
       'Mid-market (50–100 store) buyers want to see value before they sign. A strong PLG motion with frictionless pilot access and quick time-to-value creates a conversion flywheel.',
@@ -170,7 +170,7 @@ export const priorities = [
   },
   {
     id: 5,
-    rank: '05',
+    rank: '5',
     title: 'Make ABM Work for Enterprise',
     rationale:
       'Enterprise deals require precision. A tight ABM motion focused on the top 50 accounts with coordinated sales-marketing outreach dramatically improves conversion and deal quality.',
@@ -186,7 +186,7 @@ export const priorities = [
   },
   {
     id: 6,
-    rank: '06',
+    rank: '6',
     title: 'Build the Growth Engine & Operating Discipline',
     rationale:
       'Without a predictable operating system, great campaigns die in the funnel. This priority ensures every motion is measurable, coordinated, and compounding.',
@@ -205,7 +205,7 @@ export const priorities = [
 export const okrs = [
   {
     id: 1,
-    label: 'OBJ 01',
+    label: 'OBJ 1',
     objective: 'Reposition Rebiz as a broader platform and strengthen category leadership',
     rationale:
       "If buyers don't understand the full platform story, every sales and marketing dollar is discounted. Repositioning is the prerequisite for expanding TAM and winning enterprise deals.",
@@ -221,7 +221,7 @@ export const okrs = [
   },
   {
     id: 2,
-    label: 'OBJ 02',
+    label: 'OBJ 2',
     objective: 'Transform the marketing team for maximum revenue impact and scalability',
     rationale:
       'A high-leverage team with clear ownership, AI-augmented workflows, and the right mix of in-house and agency support can outperform a team twice its size operating without discipline.',
@@ -236,7 +236,7 @@ export const okrs = [
   },
   {
     id: 3,
-    label: 'OBJ 03',
+    label: 'OBJ 3',
     objective: 'Turn customer advocacy and ROI proof into a key growth driver',
     rationale:
       'Rebiz customers achieve real, measurable ROI. That proof — properly packaged and deployed — is one of the highest-ROI demand and retention tools available.',
@@ -253,7 +253,7 @@ export const okrs = [
   },
   {
     id: 4,
-    label: 'OBJ 04',
+    label: 'OBJ 4',
     objective: 'Turn PLG into a repeatable acquisition and conversion lever for mid-market',
     rationale:
       'Mid-market buyers need to experience the product to commit. A well-designed PLG motion turns the free pilot into the highest-quality top-of-funnel motion Rebiz has.',
@@ -269,7 +269,7 @@ export const okrs = [
   },
   {
     id: 5,
-    label: 'OBJ 05',
+    label: 'OBJ 5',
     objective: 'Build a focused enterprise ABM motion that creates qualified pipeline',
     rationale:
       'Enterprise accounts require multi-threaded engagement, precision timing, and coordinated sales-marketing plays. ABM done right dramatically improves deal quality and velocity.',
@@ -285,7 +285,7 @@ export const okrs = [
   },
   {
     id: 6,
-    label: 'OBJ 06',
+    label: 'OBJ 6',
     objective: 'Build a predictable marketing engine with direct revenue accountability',
     rationale:
       'Marketing without attribution is a cost center. With full-funnel visibility and a clear attribution model, marketing becomes a forecasting input and a strategic investment with measurable ROI.',
