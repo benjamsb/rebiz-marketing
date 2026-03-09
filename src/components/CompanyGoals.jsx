@@ -10,8 +10,8 @@ export default function CompanyGoals() {
     <SectionWrapper id="company-goals">
       <SectionHeader
         eyebrow="Rebiz Company Goals"
-        title="Five Goals. 24 Months. No Trade-offs."
-        subtitle="Rebiz's growth agenda requires marketing to serve all five simultaneously — not as separate campaigns, but as one coordinated engine."
+        title="Creating a Supercharged GTM"
+        subtitle="Enabling marketing to drive ARR and NRR with direct revenue accountability"
       />
 
       {/* Horizontal timeline connector for desktop */}
