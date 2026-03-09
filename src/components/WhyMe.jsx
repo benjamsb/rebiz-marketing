@@ -39,7 +39,7 @@ export default function WhyMe() {
         <img
           src="/rebiz-marketing/headshot.jpg"
           alt="Ben Brown"
-          className="hidden md:block flex-shrink-0 w-28 h-28 rounded-2xl object-cover object-top shadow-md"
+          className="hidden md:block flex-shrink-0 w-56 h-56 rounded-2xl object-cover object-top shadow-md"
         />
       </div>
 
