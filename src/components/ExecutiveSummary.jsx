@@ -9,7 +9,7 @@ const pillars = [
   },
   {
     label: 'Core Growth Path',
-    headline: '3× Within Reach',
+    headline: '3× ARR Within Reach',
     body: 'A clear, funded path to triple ARR in the existing business without changing the fundamental product.',
   },
   {
