@@ -18,8 +18,8 @@ export default function MarketingGoals() {
     <SectionWrapper id="marketing-goals">
       <SectionHeader
         eyebrow="Marketing Goals"
-        title="Five Marketing Goals. One Thesis."
-        subtitle="Every marketing goal maps directly to a company goal. Nothing in this plan is disconnected from the business outcomes Rebiz is building toward."
+        title="Transforming Rebiz Marketing"
+        subtitle="Maximizing conversion, retention, expansion and awareness. Tying success directly to company-wide goals"
       />
 
       {/* Two-column layout: left = goal list, right = detail panel */}
