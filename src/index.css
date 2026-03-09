@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base overrides ── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #FFFFFF;
+    color: #1A1A2E;
+    font-family: 'Fira Sans', Inter, system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: rgba(240, 79, 35, 0.18);
+    color: #1A1A2E;
+  }
+
+  /* Scrollbar styling (WebKit) */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #FDF6F3; }
+  ::-webkit-scrollbar-thumb { background: rgba(240, 79, 35, 0.35); border-radius: 3px; }
+}
+
+/* ── Utility classes ── */
+@layer utilities {
+  .brand-gradient {
+    background: linear-gradient(135deg, #F04F23 0%, #D31E55 100%);
+  }
+
+  .brand-gradient-text {
+    background: linear-gradient(135deg, #F04F23 0%, #D31E55 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Light glass card — white with subtle shadow, matches Rebiz's card style */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
+  /* Dot-grid — dark dots on white background */
+  .dot-grid {
+    background-image: radial-gradient(circle, rgba(0,0,0,0.055) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  /* Section divider — light border on white */
+  .section-divider {
+    border-top: 1px solid rgba(0,0,0,0.07);
+  }
+}
