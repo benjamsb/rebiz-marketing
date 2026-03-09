@@ -53,13 +53,13 @@ export default function ExecutiveSummary() {
         {/* Gradient left bar */}
         <div className="absolute left-0 top-0 bottom-0 w-1 brand-gradient" />
         <div className="px-8 py-8 md:px-12 md:py-10 bg-rz-surface">
+          <p className="mb-4 text-xs font-bold text-rz-orange tracking-widest uppercase">Marketing Leadership Mission Statement</p>
           <p className="text-lg md:text-xl text-rz-white leading-relaxed font-medium max-w-4xl">
             "Build the marketing engine that helps Rebiz evolve from category leader in its current market
             into the leading platform for a TAM 50× larger — by equipping the brand and GTM team for scale,
             increasing product adoption, delivering category-dominating content, maximizing full-funnel
             conversion, and transforming customer proof into durable revenue growth."
           </p>
-          <p className="mt-4 text-rz-orange text-sm font-semibold tracking-wide">— Job Mission Statement</p>
         </div>
       </motion.div>
 
