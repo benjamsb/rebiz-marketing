@@ -49,9 +49,9 @@ export default function OKRSection() {
   return (
     <SectionWrapper id="okrs">
       <SectionHeader
-        eyebrow="Objectives & Key Results"
-        title="Six Objectives. Full Revenue Accountability."
-        subtitle="Each objective includes key results with clear timeframes, KPI instrumentation, and the business logic behind the goal."
+        eyebrow="Objectives and Key Results"
+        title="Measuring Marketing Impact"
+        subtitle="Establishing foundational OKRs that guide marketing strategy and directly support Rebiz growth goals."
       />
 
       {/* Tab row — horizontally scrollable on mobile */}
