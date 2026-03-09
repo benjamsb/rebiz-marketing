@@ -45,7 +45,7 @@ export default function WhyMe() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold text-rz-white mb-2">The Consistent Pattern</h3>
+            <h3 className="text-lg font-bold text-rz-white mb-2">Leading Transformational Growth for Retail-Focused SaaS</h3>
             <p className="text-rz-muted text-sm leading-relaxed max-w-3xl">
               Rigorous product marketing + scalable demand engines (PLG, ABM, demand generation, and content) =
               marketing transformed from a support function into a catalyst for meteoric GTM growth.
