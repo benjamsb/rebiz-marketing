@@ -24,49 +24,54 @@ export default function WhyMe() {
 
   return (
     <SectionWrapper id="background">
-      <div className="mb-14 flex items-start justify-between gap-8">
-        <div>
-          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-rz-orange mb-3">
-            Professional Background
-          </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-rz-white leading-tight">
-            Purpose-Built for Rebiz
-          </h2>
-          <p className="mt-4 text-rz-muted max-w-2xl text-lg leading-relaxed">
-            Three successful expansion and repositioning stories similar to what Rebiz is facing today.
-          </p>
+      <div className="mb-12 flex items-start gap-8">
+        {/* Left: header + callout stacked */}
+        <div className="flex-1 min-w-0">
+          <div className="mb-6">
+            <span className="inline-block text-xs font-semibold tracking-widest uppercase text-rz-orange mb-3">
+              Professional Background
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-rz-white leading-tight">
+              Purpose-Built for Rebiz
+            </h2>
+            <p className="mt-4 text-rz-muted text-lg leading-relaxed">
+              Three successful expansion and repositioning stories similar to what Rebiz is facing today.
+            </p>
+          </div>
+
+          {/* Pattern recognition callout */}
+          <motion.div
+            className="rounded-2xl bg-rz-surface border border-rz-orange/25 p-6"
+            initial={{ opacity: 0, scale: 0.98 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0">
+                <div className="w-10 h-10 brand-gradient rounded-xl flex items-center justify-center text-lg text-white">
+                  ✦
+                </div>
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-rz-white mb-1.5">Leading Transformational Growth for Retail-Focused SaaS</h3>
+                <p className="text-rz-muted text-sm leading-relaxed">
+                  Rigorous product marketing + scalable demand engines (PLG, ABM, demand generation, and content) =
+                  marketing transformed from a support function into a catalyst for meteoric GTM growth.
+                  At every company: point solution → platform, small TAM → large TAM, weak pipeline → record pipeline.
+                </p>
+              </div>
+            </div>
+          </motion.div>
         </div>
+
+        {/* Right: headshot */}
         <img
           src="/rebiz-marketing/headshot.jpg"
           alt="Ben Brown"
-          className="hidden md:block flex-shrink-0 w-56 h-56 rounded-2xl object-cover object-top shadow-md"
+          className="hidden md:block flex-shrink-0 w-64 rounded-2xl object-cover object-top shadow-md self-stretch"
         />
       </div>
-
-      {/* Pattern recognition callout */}
-      <motion.div
-        className="mb-12 rounded-2xl bg-rz-surface border border-rz-orange/25 p-6 md:p-8"
-        initial={{ opacity: 0, scale: 0.98 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
-      >
-        <div className="flex flex-col md:flex-row md:items-center gap-6">
-          <div className="flex-shrink-0">
-            <div className="w-14 h-14 brand-gradient rounded-2xl flex items-center justify-center text-2xl text-white">
-              ✦
-            </div>
-          </div>
-          <div>
-            <h3 className="text-lg font-bold text-rz-white mb-2">Leading Transformational Growth for Retail-Focused SaaS</h3>
-            <p className="text-rz-muted text-sm leading-relaxed max-w-3xl">
-              Rigorous product marketing + scalable demand engines (PLG, ABM, demand generation, and content) =
-              marketing transformed from a support function into a catalyst for meteoric GTM growth.
-              At every company: point solution → platform, small TAM → large TAM, weak pipeline → record pipeline.
-            </p>
-          </div>
-        </div>
-      </motion.div>
 
       {/* Company tabs */}
       <div className="flex gap-3 mb-8 flex-wrap">
