@@ -24,11 +24,24 @@ export default function WhyMe() {
 
   return (
     <SectionWrapper id="background">
-      <SectionHeader
-        eyebrow="Professional Background"
-        title="Purpose-Built for Rebiz"
-        subtitle="Three successful expansion and repositioning stories similar to what Rebiz is facing today."
-      />
+      <div className="mb-14 flex items-start justify-between gap-8">
+        <div>
+          <span className="inline-block text-xs font-semibold tracking-widest uppercase text-rz-orange mb-3">
+            Professional Background
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-rz-white leading-tight">
+            Purpose-Built for Rebiz
+          </h2>
+          <p className="mt-4 text-rz-muted max-w-2xl text-lg leading-relaxed">
+            Three successful expansion and repositioning stories similar to what Rebiz is facing today.
+          </p>
+        </div>
+        <img
+          src="/rebiz-marketing/headshot.jpg"
+          alt="Ben Brown"
+          className="hidden md:block flex-shrink-0 w-28 h-28 rounded-2xl object-cover object-top shadow-md"
+        />
+      </div>
 
       {/* Pattern recognition callout */}
       <motion.div
