@@ -20,8 +20,8 @@ export default function TopPriorities() {
     <SectionWrapper id="priorities">
       <SectionHeader
         eyebrow="Top Marketing Priorities"
-        title="Six Priorities. Sequenced for Maximum Impact."
-        subtitle="These are not parallel tracks. Priority 1 is the prerequisite for all others. The sequencing is intentional."
+        title="Executing a proven tactical plan"
+        subtitle="These sequential initiatives have led previous ventures through dramatic market expansion, ARR + NRR growth and category dominance."
       />
 
       <div className="space-y-3">
