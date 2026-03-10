@@ -62,26 +62,6 @@ export default function ClosingCTA() {
             </ul>
           </div>
 
-          {/* CTA buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <motion.a
-              href="mailto:?subject=Discuss%20the%20Rebiz%20Marketing%20Plan"
-              className="brand-gradient text-white font-bold px-8 py-4 rounded-full shadow-xl shadow-rz-orange/25 hover:opacity-90 transition-opacity text-sm"
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              Discuss the Plan
-            </motion.a>
-            <motion.a
-              href="#priorities"
-              className="border border-rz-border text-rz-muted hover:text-rz-white hover:border-white/20 font-semibold px-8 py-4 rounded-full transition-colors text-sm"
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-            >
-              Review 90-Day Priorities
-            </motion.a>
-          </div>
-
           {/* Bottom signature */}
           <motion.div
             className="mt-16 pt-8 border-t border-rz-border flex flex-col items-center gap-2"
