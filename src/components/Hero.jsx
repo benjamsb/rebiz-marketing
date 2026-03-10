@@ -234,9 +234,9 @@ export default function Hero() {
               {/* Pipeline funnel bars */}
               <div className="space-y-3">
                 <span className="text-rz-subtle text-xs uppercase tracking-wider block">Growth Priority Stack</span>
+                <PipelineBar label="Revenue Engine"     pct={83} color="blue" />
                 <PipelineBar label="PLG Mid-Market"     pct={65} color="rose" />
                 <PipelineBar label="Enterprise ABM"     pct={72} color="teal" />
-                <PipelineBar label="Revenue Engine"     pct={55} color="blue" />
                 <PipelineBar label="Brand & Category"   pct={44} color="orange" />
               </div>
 
