@@ -38,14 +38,14 @@ export default function ClosingCTA() {
           </h2>
 
           <p className="text-rz-muted text-lg max-w-2xl mx-auto leading-relaxed mb-12">
-            Not by reinventing what works — but by scaling it, systematizing it, and connecting
+            Not by reinventing what works, but by scaling it, systematizing it, and connecting
             it to revenue accountability that makes marketing a forecasting input, not a cost line.
           </p>
 
           {/* 90-day preview */}
           <div className="text-left bg-rz-surface border border-rz-border rounded-2xl p-7 mb-10 max-w-2xl mx-auto">
             <h3 className="text-xs font-semibold text-rz-subtle uppercase tracking-wider mb-4">
-              First 90 Days — Six Immediate Moves
+              First 90 Days: Six Immediate Moves
             </h3>
             <ul className="space-y-3">
               {ninetyDayItems.map((item, i) => (

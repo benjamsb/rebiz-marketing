@@ -140,7 +140,7 @@ export const priorities = [
     rank: '3',
     title: 'Turn Customer Proof into a Top Growth Driver',
     rationale:
-      'Rebiz has exceptional retention and real ROI stories. Customer proof is currently underutilized — it should become one of the top acquisition and retention tools in the GTM playbook.',
+      'Rebiz has exceptional retention and real ROI stories. Customer proof is currently underutilized; it should become one of the top acquisition and retention tools in the GTM playbook.',
     tactics: [
       'Create a structured advocacy program spanning testimonials, case studies, speaker programs, references, and customer videos.',
       'Translate quarterly ROI analyses into segment-specific proof assets.',
@@ -239,7 +239,7 @@ export const okrs = [
     label: 'OBJ 3',
     objective: 'Turn customer advocacy and ROI proof into a key growth driver',
     rationale:
-      'Rebiz customers achieve real, measurable ROI. That proof — properly packaged and deployed — is one of the highest-ROI demand and retention tools available.',
+      'Rebiz customers achieve real, measurable ROI. That proof, properly packaged and deployed, is one of the highest-ROI demand and retention tools available.',
     keyResults: [
       { timeframe: '90d', text: 'Establish pipeline of current customers for advocacy content.' },
       { timeframe: '6mo', text: 'Operationalize a quarterly ROI proof program with benchmark narratives.' },
@@ -318,14 +318,14 @@ export const experiences = [
     role: 'VP / Head of Marketing',
     headline: 'Shattered ARR and NRR goals through a company-wide GTM transformation.',
     description:
-      'Fairmarkit serves enterprise retailers — a direct ICP analog to Rebiz. Led the brand and GTM through a strategic transition from point solution to end-to-end procurement platform, unlocking a dramatically larger TAM and driving pipeline and win-rate improvements to unprecedented levels.',
+      'Fairmarkit serves enterprise retailers, a direct ICP analog to Rebiz. Led the brand and GTM through a strategic transition from point solution to end-to-end procurement platform, unlocking a dramatically larger TAM and driving pipeline and win-rate improvements to unprecedented levels.',
     achievements: [
       { label: 'TAM Expansion', text: "Navigated company's transition from point solution to end-to-end platform; elevated brand and positioning for expanded engagement with a significantly larger TAM." },
       { label: 'Pipeline & Win Rates', text: 'Shot up inbound pipeline, win rates, and ACV to record levels while reducing time-to-close through product marketing, ABM, and in-depth customer advocacy programs.' },
       { label: 'Category Authority', text: 'Earned #1 share of voice and AI search positioning, unseating competitors with significantly larger teams and budgets.' },
       { label: 'AI Operating Model', text: 'Transformed the marketing function with AI-first workflows, amplifying team impact and efficiency without proportional headcount growth.' },
     ],
-    relevance: "Fairmarkit serves enterprise retail buyers — the same archetype as Rebiz's target enterprise ICP. The GTM playbook (repositioning + ABM + PLG + proof) maps directly.",
+    relevance: "Fairmarkit serves enterprise retail buyers, the same archetype as Rebiz's target enterprise ICP. The GTM playbook (repositioning + ABM + PLG + proof) maps directly.",
     accentColor: 'orange',
   },
   {
@@ -335,12 +335,12 @@ export const experiences = [
     description:
       'Led AKASA from a specialist point solution into a recognized leader in the broader healthcare AI automation market, enabling the company to pursue a significantly larger enterprise TAM through a tightly integrated GTM architecture.',
     achievements: [
-      { label: 'Enterprise GTM Architecture', text: 'Built tightly integrated product marketing, ABM, and lifecycle programs — dramatically improving pipeline quality, conversion rates, and sales velocity across enterprise accounts.' },
+      { label: 'Enterprise GTM Architecture', text: 'Built tightly integrated product marketing, ABM, and lifecycle programs, dramatically improving pipeline quality, conversion rates, and sales velocity across enterprise accounts.' },
       { label: 'Revenue Accountability', text: 'Established a revenue-accountable marketing infrastructure linking marketing activity directly to pipeline creation, opportunity progression, net-new ARR, and NRR.' },
       { label: 'Category Authority', text: 'Elevated AKASA to the center of its category through high-impact thought leadership and technical storytelling that resonated with C-suite buyers.' },
-      { label: 'Operational Scale', text: 'Built the marketing operating model — team, tech stack, attribution, and agency partnerships — to sustain growth efficiently at enterprise scale.' },
+      { label: 'Operational Scale', text: 'Built the marketing operating model (team, tech stack, attribution, and agency partnerships) to sustain growth efficiently at enterprise scale.' },
     ],
-    relevance: 'The AKASA playbook — enterprise repositioning, revenue-accountable marketing, thought leadership, and full-funnel attribution — is precisely what Rebiz needs for its next phase of enterprise growth.',
+    relevance: 'The AKASA playbook (enterprise repositioning, revenue-accountable marketing, thought leadership, and full-funnel attribution) is precisely what Rebiz needs for its next phase of enterprise growth.',
     accentColor: 'rose',
   },
   {
@@ -348,12 +348,12 @@ export const experiences = [
     role: 'Head of Marketing',
     headline: 'Helped drive 12× ARR growth by repositioning a services company into a scalable AI SaaS platform.',
     description:
-      'ConverseNow serves enterprise and SMB restaurant/retail owners — an ICP that overlaps significantly with Rebiz. Led the brand, GTM, and growth through a complete transformation from services-led organization to AI SaaS platform, unlocking a dramatically larger TAM.',
+      'ConverseNow serves enterprise and SMB restaurant/retail owners, an ICP that overlaps significantly with Rebiz. Led the brand, GTM, and growth through a complete transformation from services-led organization to AI SaaS platform, unlocking a dramatically larger TAM.',
     achievements: [
-      { label: 'Product Marketing Foundation', text: 'Built the product marketing foundation that translated complex AI technology into clear ROI-driven narratives for both SMB and enterprise buyers — enabling rapid pilot-to-close conversions.' },
+      { label: 'Product Marketing Foundation', text: 'Built the product marketing foundation that translated complex AI technology into clear ROI-driven narratives for both SMB and enterprise buyers, enabling rapid pilot-to-close conversions.' },
       { label: 'Explosive Pipeline Growth', text: 'Drove explosive growth in pipeline, win rates, and ACV by integrating product marketing, ABM, and high-impact content programs for enterprise and mid-market audiences.' },
       { label: 'PLG & Partnerships', text: 'Established partner marketing and customer advocacy programs that catapulted inbound pipeline, conversion, and retention at scale.' },
-      { label: 'SMB + Enterprise Duality', text: 'Simultaneously managed distinct GTM motions for SMB store owners and large enterprise chains — the same dual-motion challenge Rebiz faces.' },
+      { label: 'SMB + Enterprise Duality', text: 'Simultaneously managed distinct GTM motions for SMB store owners and large enterprise chains, the same dual-motion challenge Rebiz faces.' },
     ],
     relevance: "12\u00d7 ARR growth serving multi-unit retail/restaurant operators at both SMB and enterprise levels. The experience with store-level ROI narratives, pilot-to-revenue conversion, and operational visibility messaging is a direct match for Rebiz's ICP.",
     accentColor: 'orange',

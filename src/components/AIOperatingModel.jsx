@@ -163,7 +163,7 @@ export default function AIOperatingModel() {
           <h4 className="text-sm font-bold text-rz-white mb-1">The Guiding Principle</h4>
           <p className="text-rz-muted text-sm leading-relaxed">
             AI is a leverage tool, not a cost-cutting mechanism. The goal is to do more meaningful work
-            per human hour — faster iteration, broader coverage, and better data — while keeping strategic
+            per human hour: faster iteration, broader coverage, and better data, while keeping strategic
             judgment, customer insight, and brand voice firmly in human hands. Where AI hits its limits,
             the right agencies, contractors, and FTEs fill the gaps.
           </p>

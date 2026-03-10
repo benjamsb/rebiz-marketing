@@ -31,7 +31,7 @@ const pillars = [
   {
     label: 'Marketing Mission',
     headline: 'Repeatable Growth Engine',
-    body: 'PLG, ABM, brand elevation, and full-funnel attribution — built to match and then surpass sales-sourced pipeline.',
+    body: 'PLG, ABM, brand elevation, and full-funnel attribution, built to match and then surpass sales-sourced pipeline.',
   },
 ];
 
@@ -67,7 +67,7 @@ export default function ExecutiveSummary() {
           <p className="mb-4 text-xs font-bold text-rz-orange tracking-widest uppercase">Marketing Leadership Mission Statement</p>
           <p className="text-lg md:text-xl text-rz-white leading-relaxed font-medium max-w-4xl">
             "Build the marketing engine that helps Rebiz evolve from category leader in its current market
-            into the leading platform for a TAM 50× larger — by equipping the brand and GTM team for scale,
+            into the leading platform for a TAM 50× larger, by equipping the brand and GTM team for scale,
             increasing product adoption, delivering category-dominating content, maximizing full-funnel
             conversion, and transforming customer proof into durable revenue growth."
           </p>

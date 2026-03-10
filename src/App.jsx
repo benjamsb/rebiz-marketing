@@ -29,7 +29,7 @@ export default function App() {
       <footer className="border-t border-rz-border py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-rz-subtle text-sm">
           <span className="font-semibold text-rz-muted">Rebiz</span>
-          <span>Head of Marketing — Mission & OKRs · Confidential</span>
+          <span>Head of Marketing: Mission & OKRs · Confidential</span>
         </div>
       </footer>
     </div>
