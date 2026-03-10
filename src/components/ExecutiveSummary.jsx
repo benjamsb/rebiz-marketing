@@ -49,8 +49,8 @@ export default function ExecutiveSummary() {
     <SectionWrapper id="summary">
       <SectionHeader
         eyebrow="Executive Summary"
-        title="The Strategic Opportunity in 30 Seconds"
-        subtitle="Rebiz doesn't need to be fixed — it needs to be scaled. The marketing mission is to build the engine that makes that possible without compromising what works."
+        title="Powering Rebiz into a New Era"
+        subtitle="Marketing will turn the brand's strong fundamentals into a structured growth engine with expanded market dominance, sustainable enterprise and mid-market funnels, and an AI-augmented operating model to skyrocket pipeline, ARR and NRR."
       />
 
       {/* Hero callout quote */}
