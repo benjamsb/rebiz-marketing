@@ -74,8 +74,8 @@ export default function AIOperatingModel() {
     <SectionWrapper id="ai-model">
       <SectionHeader
         eyebrow="AI Operating Model"
-        title="Marketing That Runs at Machine Speed."
-        subtitle="AI agents don't replace strategic judgment — they remove the bottlenecks that slow it down. This is how a lean team produces the output of one ten times its size."
+        title="AI-Augmented Marketing"
+        subtitle="Equipping every marketing function with a team of AI agents that amplify impact and efficiency. Combining automation with a human in the loop for speed with brand consistency, accuracy and compliance."
       />
 
       {/* Three-layer model */}
