@@ -152,16 +152,7 @@ export default function OKRSection() {
                 ))}
               </div>
 
-              {/* Summary progress strip */}
-              <div className="mt-6 pt-5 border-t border-rz-border">
-                <div className="flex items-center justify-between text-xs text-rz-subtle mb-2">
-                  <span>Overall Progress</span>
-                  <span className="text-rz-orange font-semibold">Plan Phase — 0% Complete</span>
-                </div>
-                <div className="h-1.5 bg-white/5 rounded-full overflow-hidden">
-                  <div className="h-full brand-gradient rounded-full" style={{ width: '0%' }} />
-                </div>
-              </div>
+
             </div>
           </div>
         </motion.div>
