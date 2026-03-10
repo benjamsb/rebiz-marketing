@@ -81,12 +81,6 @@ export default function Nav() {
 
         {/* CTA */}
         <div className="flex items-center gap-3">
-          <a
-            href="#priorities"
-            className="hidden sm:block brand-gradient text-white text-sm font-semibold px-4 py-2 rounded-full hover:opacity-90 transition-opacity"
-          >
-            Review Priorities
-          </a>
           {/* Mobile hamburger */}
           <button
             className="lg:hidden p-2 rounded text-rz-muted hover:text-rz-white"
@@ -121,13 +115,7 @@ export default function Nav() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#priorities"
-                className="mt-3 brand-gradient text-white text-sm font-semibold px-4 py-2.5 rounded-full text-center"
-                onClick={() => setMobileOpen(false)}
-              >
-                Review Priorities
-              </a>
+
             </nav>
           </motion.div>
         )}
