@@ -24,14 +24,14 @@ function useCountUp(target, duration = 1800, suffix = '') {
   return [value, () => setStarted(true)];
 }
 
-// Renders e.g. "3×" with the × smaller and bottom-aligned
+// Renders e.g. "3×" with the × bottom-aligned to the number
 function MultX({ children, className = '' }) {
   const str = String(children);
   if (!str.includes('×')) return <span className={className}>{str}</span>;
   const [num, ...rest] = str.split('×');
   return (
-    <span className={className}>
-      {num}<span className="text-[0.55em] align-bottom">×</span>{rest.join('×')}
+    <span className={`inline-flex items-end leading-none ${className}`}>
+      <span>{num}</span><span>×</span>{rest.length > 0 && <span>{rest.join('×')}</span>}
     </span>
   );
 }
