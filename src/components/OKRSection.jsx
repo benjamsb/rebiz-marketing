@@ -100,26 +100,6 @@ export default function OKRSection() {
               </ul>
             </div>
 
-            {/* Timeframe legend */}
-            <div className="bg-rz-surface border border-rz-border rounded-2xl p-5">
-              <h4 className="text-xs font-semibold text-rz-subtle uppercase tracking-wider mb-3">
-                Timeframe Key
-              </h4>
-              <div className="space-y-2">
-                {[
-                  { tf: '90d',  label: 'First 90 days' },
-                  { tf: '6mo',  label: 'Month 6' },
-                  { tf: '12mo', label: 'Month 12' },
-                ].map(t => (
-                  <div key={t.tf} className="flex items-center gap-2">
-                    <span className={`text-[10px] font-bold tracking-widest uppercase border rounded px-2 py-0.5 ${tfColors[t.tf]}`}>
-                      {t.tf}
-                    </span>
-                    <span className="text-rz-muted text-xs">{t.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Right: key results list */}
