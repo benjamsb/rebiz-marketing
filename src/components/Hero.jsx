@@ -149,7 +149,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.25 }}
           >
             Rebiz is the #1 retail analytics platform with a clear path to{' '}
-            <strong className="text-rz-white">3× current ARR</strong> — and a
+            <strong className="text-rz-white">3× current ARR</strong> and a
             new product architecture that opens a{' '}
             <strong className="text-rz-white">50× larger TAM</strong>.
             This is the marketing engine that closes the gap.
@@ -164,7 +164,7 @@ export default function Hero() {
           >
             <p className="text-rz-muted text-sm leading-relaxed italic">
               "Build the marketing engine that helps Rebiz evolve from category
-              leader into category-defining platform — through PLG, ABM,
+              leader into category-defining platform, through PLG, ABM,
               best-in-class brand, and a measurable revenue attribution system."
             </p>
           </motion.div>
