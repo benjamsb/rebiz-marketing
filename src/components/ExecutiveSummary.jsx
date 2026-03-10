@@ -86,8 +86,8 @@ export default function ExecutiveSummary() {
             transition={{ delay: i * 0.08, duration: 0.5 }}
             whileHover={{ y: -2 }}
           >
-            <span className="text-xs font-semibold text-rz-orange tracking-widest uppercase">{p.label}</span>
-            <MultX className="mt-2 text-xl font-bold text-rz-white">{p.headline}</MultX>
+            <span className="block text-xs font-semibold text-rz-orange tracking-widest uppercase">{p.label}</span>
+            <h3 className="mt-2 text-xl font-bold text-rz-white"><MultX>{p.headline}</MultX></h3>
             <p className="mt-2 text-rz-muted text-sm leading-relaxed">{p.body}</p>
           </motion.div>
         ))}
