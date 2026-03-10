@@ -190,24 +190,6 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Key highlights row */}
-          <motion.div
-            className="mt-12 flex flex-wrap gap-6"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.8, duration: 0.6 }}
-          >
-            {[
-              { val: '3×', label: 'ARR Target' },
-              { val: '50×', label: 'TAM Expansion' },
-              { val: '6', label: 'Strategic OKRs' },
-            ].map(item => (
-              <div key={item.label} className="flex items-baseline gap-2">
-                <MultX className="brand-gradient-text text-2xl font-bold">{item.val}</MultX>
-                <span className="text-rz-subtle text-xs uppercase tracking-wider">{item.label}</span>
-              </div>
-            ))}
-          </motion.div>
         </div>
 
         {/* ── Right column: dashboard panel ── */}
