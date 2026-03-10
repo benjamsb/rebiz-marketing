@@ -1,6 +1,17 @@
 import { motion } from 'framer-motion';
 import SectionWrapper, { SectionHeader } from './SectionWrapper';
 
+function MultX({ children, className = '' }) {
+  const str = String(children);
+  if (!str.includes('×')) return <span className={className}>{str}</span>;
+  const [num, ...rest] = str.split('×');
+  return (
+    <span className={className}>
+      {num}<span className="text-[0.55em] align-bottom">×</span>{rest.join('×')}
+    </span>
+  );
+}
+
 const pillars = [
   {
     label: 'Foundation',
@@ -76,7 +87,7 @@ export default function ExecutiveSummary() {
             whileHover={{ y: -2 }}
           >
             <span className="text-xs font-semibold text-rz-orange tracking-widest uppercase">{p.label}</span>
-            <h3 className="mt-2 text-xl font-bold text-rz-white">{p.headline}</h3>
+            <MultX className="mt-2 text-xl font-bold text-rz-white block">{p.headline}</MultX>
             <p className="mt-2 text-rz-muted text-sm leading-relaxed">{p.body}</p>
           </motion.div>
         ))}

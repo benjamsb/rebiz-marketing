@@ -24,6 +24,18 @@ function useCountUp(target, duration = 1800, suffix = '') {
   return [value, () => setStarted(true)];
 }
 
+// Renders e.g. "3×" with the × smaller and bottom-aligned
+function MultX({ children, className = '' }) {
+  const str = String(children);
+  if (!str.includes('×')) return <span className={className}>{str}</span>;
+  const [num, ...rest] = str.split('×');
+  return (
+    <span className={className}>
+      {num}<span className="text-[0.55em] align-bottom">×</span>{rest.join('×')}
+    </span>
+  );
+}
+
 // A single metric card inside the dashboard panel
 function DashboardMetric({ label, value, sub, color = 'orange', delay = 0 }) {
   const colorMap = {
@@ -40,7 +52,7 @@ function DashboardMetric({ label, value, sub, color = 'orange', delay = 0 }) {
       transition={{ delay: 0.8 + delay, duration: 0.5 }}
     >
       <span className="text-rz-subtle text-xs font-medium uppercase tracking-wider">{label}</span>
-      <span className={`text-2xl font-bold ${colorMap[color]}`}>{value}</span>
+      <MultX className={`text-2xl font-bold ${colorMap[color]}`}>{value}</MultX>
       {sub && <span className="text-rz-muted text-xs">{sub}</span>}
     </motion.div>
   );
@@ -191,7 +203,7 @@ export default function Hero() {
               { val: '6', label: 'Strategic OKRs' },
             ].map(item => (
               <div key={item.label} className="flex items-baseline gap-2">
-                <span className="brand-gradient-text text-2xl font-bold">{item.val}</span>
+                <MultX className="brand-gradient-text text-2xl font-bold">{item.val}</MultX>
                 <span className="text-rz-subtle text-xs uppercase tracking-wider">{item.label}</span>
               </div>
             ))}
