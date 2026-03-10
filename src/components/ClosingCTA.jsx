@@ -26,20 +26,16 @@ export default function ClosingCTA() {
           transition={{ duration: 0.7 }}
         >
           <span className="inline-block text-xs font-semibold tracking-widest uppercase text-rz-orange mb-6">
-            The Mandate
+            Setting Up for Success: 90 Day Plan Preview
           </span>
 
           <h2 className="text-3xl md:text-5xl font-bold text-rz-white leading-tight mb-6 tracking-tight">
-            Build the marketing engine that helps
-            <br className="hidden md:block" />
-            <span className="brand-gradient-text"> Rebiz evolve</span> from category leader
-            <br className="hidden md:block" />
-            into category-defining platform.
+            Hitting the Ground Running
           </h2>
 
           <p className="text-rz-muted text-lg max-w-2xl mx-auto leading-relaxed mb-12">
-            Not by reinventing what works, but by scaling it, systematizing it, and connecting
-            it to revenue accountability that makes marketing a forecasting input, not a cost line.
+            An exciting journey awaits. Pivots are inevitable, but mapping out our strategy ensures
+            we're always moving in the right direction.
           </p>
 
           {/* 90-day preview */}
