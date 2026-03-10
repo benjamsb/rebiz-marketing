@@ -125,16 +125,9 @@ export default function OKRSection() {
           {/* Right: key results list */}
           <div className="lg:col-span-2">
             <div className="bg-rz-surface border border-rz-border rounded-2xl p-6">
-              <div className="flex items-center justify-between mb-5">
-                <h4 className="text-xs font-semibold text-rz-subtle uppercase tracking-wider">
-                  Key Results ({activeOKR.keyResults.length})
-                </h4>
-                <div className="flex gap-4 text-xs text-rz-subtle">
-                  <span><span className="text-rz-orange">●</span> Planned</span>
-                  <span><span className="text-teal-400">●</span> In Progress</span>
-                  <span><span className="text-blue-400">●</span> Complete</span>
-                </div>
-              </div>
+              <h4 className="text-xs font-semibold text-rz-subtle uppercase tracking-wider mb-5">
+                Key Results ({activeOKR.keyResults.length})
+              </h4>
 
               <div className="space-y-3">
                 {activeOKR.keyResults.map((kr, i) => (
