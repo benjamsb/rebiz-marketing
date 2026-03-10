@@ -67,7 +67,7 @@ export default function WhyMe() {
 
         {/* Right: headshot */}
         <img
-          src="/rebiz-marketing/headshot.jpg"
+          src="/rebiz-marketing/headshot_cropped.jpg"
           alt="Ben Brown"
           className="hidden md:block flex-shrink-0 w-64 rounded-2xl object-cover object-top shadow-md self-stretch"
         />
