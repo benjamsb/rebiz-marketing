@@ -28,16 +28,6 @@ function KeyResult({ kr, index }) {
         </span>
         <p className="text-rz-muted text-sm leading-relaxed flex-1">{kr.text}</p>
       </div>
-      {/* Progress bar (placeholder — starts at 0% pending plan activation) */}
-      <div className="mt-3 flex items-center gap-3">
-        <div className="flex-1 h-1 bg-white/5 rounded-full overflow-hidden">
-          <div
-            className="h-full rounded-full brand-gradient"
-            style={{ width: '0%' }}
-          />
-        </div>
-        <span className="text-rz-subtle text-[10px] flex-shrink-0">Planned</span>
-      </div>
     </motion.div>
   );
 }
