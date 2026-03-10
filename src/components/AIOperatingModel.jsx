@@ -12,7 +12,7 @@ const layerStyles = {
 function AgentCard({ agent, index, isOpen, onToggle }) {
   return (
     <motion.div
-      className="bg-rz-surface border border-rz-border rounded-xl overflow-hidden"
+      className={`rounded-xl overflow-hidden transition-colors duration-200 ${isOpen ? 'bg-rz-orange/5 border border-rz-orange/40' : 'bg-rz-surface border border-rz-border'}`}
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
