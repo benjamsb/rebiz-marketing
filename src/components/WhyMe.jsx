@@ -35,7 +35,7 @@ export default function WhyMe() {
               Purpose-Built for Rebiz
             </h2>
             <p className="mt-4 text-rz-muted text-lg leading-relaxed">
-              Three successful expansion and repositioning stories similar to what Rebiz is facing today.
+              Leading three successful expansion and repositioning journeys that parallel Rebiz's next steps.
             </p>
           </div>
 
