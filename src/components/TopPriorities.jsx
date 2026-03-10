@@ -20,7 +20,7 @@ export default function TopPriorities() {
     <SectionWrapper id="priorities">
       <SectionHeader
         eyebrow="Top Marketing Priorities"
-        title="Executing a proven tactical plan"
+        title="Executing on Strategic and Tactical Levels"
         subtitle="These sequential initiatives have led previous ventures through dramatic market expansion, ARR + NRR growth and category dominance."
       />
 
