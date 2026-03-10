@@ -166,7 +166,7 @@ export const priorities = [
       'Launch pilot-to-case-study workflow so wins become reusable demand assets.',
     ],
     impact: '+25% pilot activation rate; >50% mid-market pipeline from marketing-generated / influenced accounts.',
-    weight: 'Pipeline',
+    weight: 'Revenue',
   },
   {
     id: 5,
@@ -182,7 +182,7 @@ export const priorities = [
       'Measure ABM by account engagement, meetings, pipeline creation, progression, and win rate.',
     ],
     impact: '>50% enterprise pipeline from ABM programs; +20% meeting-to-opportunity conversion.',
-    weight: 'Pipeline',
+    weight: 'Revenue',
   },
   {
     id: 6,
