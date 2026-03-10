@@ -61,7 +61,7 @@ function DashboardMetric({ label, value, sub, color = 'orange', delay = 0 }) {
 // Sparkline SVG — a simple growth curve to reinforce "upward trend" visually
 function Sparkline({ color = '#F04F23' }) {
   // Static growth path, purely decorative
-  const points = '0,60 20,50 45,42 70,30 100,18 130,22 160,10 190,14 220,4';
+  const points = '0,65 20,58 45,50 70,36 100,20 130,10 160,4 190,2 220,0';
   return (
     <svg viewBox="0 0 220 70" className="w-full h-10" preserveAspectRatio="none">
       <defs>
@@ -244,18 +244,18 @@ export default function Hero() {
               <div>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-rz-subtle text-xs uppercase tracking-wider">Marketing-Sourced Pipeline</span>
-                  <span className="text-rz-orange text-xs font-semibold">↑ Target Trajectory</span>
+                  <span className="text-emerald-500 text-xs font-semibold">↑ Target Trajectory</span>
                 </div>
-                <Sparkline color="#F04F23" />
+                <Sparkline color="#10B981" />
               </div>
 
               {/* Pipeline funnel bars */}
               <div className="space-y-3">
                 <span className="text-rz-subtle text-xs uppercase tracking-wider block">Growth Priority Stack</span>
-                <PipelineBar label="Brand & Category"   pct={82} color="orange" />
                 <PipelineBar label="PLG Mid-Market"     pct={65} color="rose" />
                 <PipelineBar label="Enterprise ABM"     pct={72} color="teal" />
                 <PipelineBar label="Revenue Engine"     pct={55} color="blue" />
+                <PipelineBar label="Brand & Category"   pct={44} color="orange" />
               </div>
 
               {/* Status strip */}
