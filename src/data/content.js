@@ -133,7 +133,7 @@ export const priorities = [
       'Evaluate in-house vs. agency work based on speed, specialization, and compounding internal capability.',
     ],
     impact: 'Higher output per headcount, faster time-to-market, better signal-to-noise in every program.',
-    weight: 'Enabler',
+    weight: 'Infrastructure',
   },
   {
     id: 3,
